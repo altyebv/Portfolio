@@ -19,10 +19,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
   tripguide,
   threejs,
+  cocktail,
+  iphone
 } from "../assets";
 
 export const navLinks = [
@@ -202,16 +202,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "iPhone 15 Launch Page Replica",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A sleek, scroll-driven replica of the iPhone 15 launch website, featuring an interactive 3D model and dynamic animations. Built to showcase modern front-end techniques and immersive product presentation.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -219,29 +219,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: iphone,
+    source_code_link: "https://github.com/altyebv/Apple-iPhone15",
   },
   {
-    name: "Job IT",
+    name: "Mojito - Cocktail Shop Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+      "A vibrant and responsive website for a fictional cocktail shop. Designed with a clean aesthetic and modern UI to highlight menu items, promotions, and contact info.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "tailwindCss",
         color: "pink-text-gradient",
       },
+      {
+        name: "Gsap",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: cocktail,
+    source_code_link: "https://github.com/altyebv/Mojito",
   },
   {
     name: "Trip Guide",
