@@ -221,6 +221,7 @@ const projects = [
     ],
     image: iphone,
     source_code_link: "https://github.com/altyebv/Apple-iPhone15",
+    deployment_link: "https://cloned-iphone.vercel.app/",
   },
   {
     name: "Mojito - Cocktail Shop Website",
@@ -242,6 +243,7 @@ const projects = [
     ],
     image: cocktail,
     source_code_link: "https://github.com/altyebv/Mojito",
+    deployment_link: "https://shaltout-fresh.vercel.app/",
   },
   {
     name: "Trip Guide",
@@ -263,6 +265,8 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    deployment_link: "https://tripguide-website.vercel.app/",
+    
   },
 ];
 
